@@ -1,0 +1,145 @@
+@import './colors.scss';
+
+// Font
+$base-text-color: $color-dark;
+
+// Card
+$card-box-shadow: rgba($color-black, .1);
+$card-bg: $color-white;
+
+// Authentication
+$auth-card-width: rem(700px);
+$auth-card-spacing: rem(100px);
+$auth-card-text-color: $color-dark-grey;
+$auth-card-text-secondary-color: $color-red;
+
+// Textfield
+$textfield-bg: $color-light-grey;
+$textfield-error-bg: $color-light-pink;
+$textfield-icon-color: $color-medium-grey;
+$textfield-icon-active-color: $color-red;
+$textfield-icon-error-color: $color-red;
+$textfield-label-color: $color-medium-dark-grey;
+$textfield-sufix-color: $color-medium-dark-grey;
+
+// Datepicker
+$datepicker-content-bg: $color-darker-blue;
+$datepicker-range-label-color: $color-dark-grey;
+
+// Select
+$select-status-label-bg: $color-medium-dark-grey;
+$select-status-label-arrow-color: $color-white;
+$select-status-label-value-color: $color-white;
+$select-status-doc-bg: rgba($color-light-blue, .1);
+$select-status-doc-value-color: $color-dark;
+$select-status-doc-arrow-color: $color-medium-dark-grey;
+$select-status-progress-bg: $color-red;
+$select-status-open-bg: $color-yellow;
+$select-status-review-bg: $color-aqua-blue;
+$select-status-done-bg: $color-green;
+
+// Checkbox
+$checkbox-error-border: $color-red;
+$checkbox-label-disabled-color: $color-medium-darker-grey;
+
+// Radio
+$radio-outer-circle-border: $color-medium-darker-grey;
+
+// Chip list
+$chip-list-border: $color-light-grey;
+$chip-list-error-border: $color-red;
+$chip-list-chip-standart-bg: $color-light-grey;
+$chip-list-chip-input-color: $color-medium-dark-grey;
+$chip-list-autocomplete-option-hover-bg: $color-light-grey;
+$chip-list-chip-non-autocomplete-bg: $color-red;
+$chip-list-chip-non-autocomplete-color: $color-white;
+
+// Expansion panel
+$expansion-panel-separator-color: $color-light-grey;
+$expansion-panel-box-shadow: rgba($color-black, .05);
+
+// Inline edit
+$inline-edit-error-color: $color-red;
+$inline-edit-text-applier-border: $color-red;
+$inline-edit-text-applier-error-border: $color-red;
+$inline-edit-text-applier-hover-bg: $color-light-grey;
+$inline-edit-text-applier-cancel-btn-color: $color-red;
+$inline-edit-text-applier-cancel-btn-bg: $color-red;
+$inline-edit-wysiwyg-applier-hover-bg: $color-light-grey;
+$inline-edit-wysiwyg-applier-error-border: $color-red;
+
+// Menu
+$menu-fab-mini-bg: $color-light-grey;
+
+// Progress bar
+$progress-bar-container-overlay-bg: rgba($color-white, .5);
+$progress-bar-stepper-bg: rgba($color-red, .1);
+
+// Tabs
+$tabs-link-color: $color-dark;
+$tabs-link-hover-bg: rgba($color-black, .05);
+$tabs-link-active-bg: rgba($color-red, .1);
+$tabs-link-active-color: $color-red;
+$tabs-content-bg: $color-white;
+$tabs-content-shadow: rgba($color-black, .05);
+
+// CKE Editor
+$cke-editor-bg: $color-light-grey;
+$cke-editor-top-bg: darken($color-light-grey, 5);
+$cke-editor-error-border: $color-red;
+
+// Toast
+$toast-bg: $color-white;
+$toast-icon-color: $color-red;
+$toast-close-color: $color-medium-dark-grey;
+$toast-box-shadow: rgba($color-black, .4);
+$toast-warning-bg: $color-light-pink;
+$toast-warning-icon-color: $color-red;
+$toast-info-bg: $color-light-pink;
+
+// Slide toggle
+$slide-toggle-bar-bg: $color-light-grey;
+$slide-toggle-thumb-bg: #dde4e7;
+
+// Button
+$btn-height: rem(50px);
+$btn-spacing: rem(30px);
+$btn-spinner-layout: rem(18px);
+$btn-height-sm: rem(36px);
+$btn-font-size-sm: rem(12px);
+$btn-spacing-sm: rem(20px);
+$btn-height-h30: rem(30px);
+$btn-spacing-h30: rem(16px);
+$btn-height-h40: rem(40px);
+$btn-spacing-h40: rem(20px);
+$btn-icon-height-h24: rem(24px);
+$btn-stroked-height-h36: rem(36px);
+$btn-stroked-width-h36: rem(50px);
+$btn-spacing-h36: rem(2px);
+$btn-disabled-color: $color-medium-dark-grey;
+$btn-flat-spinner-color: $color-white;
+$btn-flat-disabled-color: rgba($color-white, .4);
+$btn-primary-disabled-color: rgba($color-red, .4);
+$btn-primary-spinner-color: $color-red;
+$btn-stroked-color: $color-medium-darker-grey;
+$btn-stroked-border: $color-medium-dark-grey;
+$btn-stroked-bg: $color-white;
+$btn-stroked-disabled-color: rgba($color-dark-grey, .4);
+$btn-stroked-disabled-border: rgba($color-medium-dark-grey, .4);
+$btn-outlined-color: $color-white;
+$btn-outlined-bg: transparent;
+$btn-rounded-color: $color-dark;
+$btn-rounded-bg: $color-light-grey;
+$btn-link-disabled-color: $color-medium-dark-grey;
+$btn-link-primary-spinner-color: $color-red;
+$btn-link-stroked-color: $color-dark-grey;
+$btn-link-stroked-bg: $color-white;
+$btn-link-stroked-disabled-color: rgba($color-dark-grey, .4);
+$btn-link-stroked-disabled-border: rgba($color-dark-grey, .4);
+$btn-icon-primary-disabled-color: rgba($color-red, .4);
+
+// Breakpoints
+$desktop: "(min-width: 1280px)";
+$laptop: "(min-width: 1024px)";
+$tablet: "(min-width: 768px)";
+$mobile: "(min-width: 640px)";

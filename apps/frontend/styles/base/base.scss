@@ -1,0 +1,36 @@
+@import '../settings/colors.scss','../settings/config.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $base-rem-size;
+}
+
+body {
+  background: $color-light-green;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 7px
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 7px
+}
+
+::-webkit-scrollbar-track {
+  width: 10px;
+  border-radius: 10px;
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #adb5bd;
+  border-top: 2px solid transparent;
+}

@@ -1,0 +1,5 @@
+// PX to REM function
+@function rem($base-font-size) {
+  $remSize: $base-font-size / $base-rem-size;
+  @return #{$remSize}rem;
+}
